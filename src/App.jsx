@@ -3,9 +3,9 @@ import Cover from "./components/pages/Cover";
 import About from "./components/pages/About";
 import Education from './components/pages/Education';
 import Skills from "./components/pages/Skills";
-// import Experience from "./components/pages/Experience";
-// import Projects from "./components/pages/Projects";
-// import Contact from "./components/pages/Contact";
+import Experience from "./components/pages/Experience";
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
 import Footer from "./components/layout/Footer";
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
           <About />
           <Education />
           <Skills />
-          {/* <Experience />
+          <Experience />
           <Projects />
-          <Contact /> */}
+          <Contact />
         </main>
         <Footer />
       </div>
