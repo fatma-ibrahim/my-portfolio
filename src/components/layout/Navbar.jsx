@@ -12,10 +12,21 @@ export default function Navbar() {
           <a href="#education" className="text-blue-600 hover:text-blue-800">
             Education
           </a>
-          <a href="#skills" className="text-blue-600 hover:text-blue-800">Skills</a>
-          <a href="#experience" className="text-blue-600 hover:text-blue-800">Experience</a>
-          <a href="#projects" className="text-blue-600 hover:text-blue-800">Projects</a>
-          <a href="#contact" className="text-blue-600 hover:text-blue-800">Contact</a>
+          <a href="#skills" className="text-blue-600 hover:text-blue-800">
+            Skills
+          </a>
+          <a href="#experience" className="text-blue-600 hover:text-blue-800">
+            Experience
+          </a>
+          <a href="#services" className="text-blue-600 hover:text-blue-800">
+            Services
+          </a>
+          <a href="#projects" className="text-blue-600 hover:text-blue-800">
+            Projects
+          </a>
+          <a href="#contact" className="text-blue-600 hover:text-blue-800">
+            Contact
+          </a>
         </div>
       </nav>
     </>
