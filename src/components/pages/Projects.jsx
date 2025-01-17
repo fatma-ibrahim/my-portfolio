@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import fintessTracker from "../../assets/imgs/Fintness Tracker.png";
+import fintessTracker from "../../assets/imgs/Fitness Tracker.png";
 import courseList from "../../assets/imgs/Course List.png";
-import newsApp from "../../assets/imgs/News App.png";
+import newsApp from "../../assets/imgs/";
 
 function Projects() {
   return (
