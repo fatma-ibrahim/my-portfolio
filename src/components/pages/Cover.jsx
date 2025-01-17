@@ -9,7 +9,7 @@ function Cover() {
     <>
       <section
         id="cover"
-        className="flex flex-col md:flex-row items-center bg-gray-100"
+        className="flex flex-col md:flex-row items-center bg-gray-100 md:p-8"
       >
         <div className="w-full md:w-1/2 p-8 md:text-left">
           <h1 className="text-4xl font-bold mb-4">Fatma Ibrahim</h1>

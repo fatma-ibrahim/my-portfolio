@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 function Contact() {
   return (
     <>
-      <section id="contact" className="p-8">
+      <section id="contact" className="md:p-8">
         <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
         <p className="text-lg text-gray-700 mb-6">
           Ready to take the next step? Contact Me today and let&apos;s discuss how we can help grow your business.

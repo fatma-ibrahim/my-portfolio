@@ -6,8 +6,8 @@ import newsApp from "../../assets/imgs/News App.png";
 function Projects() {
   return (
     <>
-      <section id="projects" className="p-4 md:p-8 lg:p-12">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">
+      <section id="projects" className="md:p-8">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
           Featured Projects
         </h2>
 
@@ -52,7 +52,7 @@ function Projects() {
           </Card>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 p-4 md:p-8 lg:p-12">
+        <div className="flex flex-col md:flex-row gap-8 md:p-8">
           <div className="md:w-1/2">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
               Fitness Tracker
@@ -82,7 +82,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 p-4 md:p-8 lg:p-12">
+        <div className="flex flex-col md:flex-row gap-8 md:p-8">
           <div className="md:w-1/2">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
               Course List
@@ -119,7 +119,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 p-4 md:p-8 lg:p-12">
+        <div className="flex flex-col md:flex-row gap-8 md:p-8">
           <div className="md:w-1/2">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
               News App
