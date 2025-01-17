@@ -1,4 +1,4 @@
-import Navbar from "./components/layout/Navbar";
+import NavLinks from "./components/layout/NavLinks";
 import Cover from "./components/pages/Cover";
 import About from "./components/pages/About";
 import Education from './components/pages/Education';
@@ -11,8 +11,8 @@ import Contact from "./components/pages/Contact";
 function App() {
   return (
     <>
-      <div>
-        <Navbar />
+      <div className="px-6 mx-6">
+        <NavLinks />
         <main className="container mx-auto p-4 pt-20">
           <Cover />
           <About />

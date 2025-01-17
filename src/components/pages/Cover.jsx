@@ -48,7 +48,7 @@ function Cover() {
           <img
             src={myImage}
             alt="Fatma Ibrahim"
-            className="w-1/2 h-auto object-cover rounded-lg shadow-lg"
+            className="w-1/2 h-auto object-cover rounded-lg"
           />
         </div>
       </section>
