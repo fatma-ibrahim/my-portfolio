@@ -10,71 +10,83 @@ import {
 function Skills() {
   return (
     <>
-      <section id="skills" className="p-8">
-        <h2 className="text-3xl font-bold mb-4">Technical Skills</h2>
+      <section id="skills" className="p-4 md:p-8 lg:p-12">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">
+          Technical Skills
+        </h2>
 
-        <Table>
-          <TableHeader>
-            <TableRow>
-              <TableHead>Web Technologies</TableHead>
-              <TableHead>Programming Languages</TableHead>
-              <TableHead>Frameworks</TableHead>
-              <TableHead>Other</TableHead>
-            </TableRow>
-          </TableHeader>
+        <div className="overflow-x-auto">
+          <Table className="min-w-full">
+            <TableHeader>
+              <TableRow>
+                <TableHead className="text-sm md:text-base lg:text-lg">
+                  Web Technologies
+                </TableHead>
+                <TableHead className="text-sm md:text-base lg:text-lg">
+                  Programming Languages
+                </TableHead>
+                <TableHead className="text-sm md:text-base lg:text-lg">
+                  Frameworks
+                </TableHead>
+                <TableHead className="text-sm md:text-base lg:text-lg">
+                  Other
+                </TableHead>
+              </TableRow>
+            </TableHeader>
 
-          <TableBody>
-            <TableRow>
-              <TableCell>
-                <li>HTML5</li>
-              </TableCell>
-              <TableCell>
-                <li>TypeScript</li>
-              </TableCell>
-              <TableCell>
-                <li>React JS</li>
-              </TableCell>
-              <TableCell>
-                <li>OOP</li>
-              </TableCell>
-            </TableRow>
+            <TableBody>
+              <TableRow>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>HTML5</li>
+                </TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>TypeScript</li>
+                </TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>React JS</li>
+                </TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>OOP</li>
+                </TableCell>
+              </TableRow>
 
-            <TableRow>
-              <TableCell>
-                <li>CSS3</li>
-              </TableCell>
-              <TableCell>
-                <li>JavaScript</li>
-              </TableCell>
-              <TableCell>
-                <li>Node.JS</li>
-              </TableCell>
-              <TableCell>
-                <li>Git</li>
-              </TableCell>
-            </TableRow>
+              <TableRow>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>CSS3</li>
+                </TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>JavaScript</li>
+                </TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>Node.JS</li>
+                </TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>Git</li>
+                </TableCell>
+              </TableRow>
 
-            <TableRow>
-              <TableCell>
-                <li>Bootstrap</li>
-              </TableCell>
-              <TableCell></TableCell>
-              <TableCell></TableCell>
-              <TableCell>
-                <li>GitHub</li>
-              </TableCell>
-            </TableRow>
+              <TableRow>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>Bootstrap</li>
+                </TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg"></TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg"></TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>GitHub</li>
+                </TableCell>
+              </TableRow>
 
-            <TableRow>
-              <TableCell>
-                <li>Tailwind CSS</li>
-              </TableCell>
-              <TableCell></TableCell>
-              <TableCell></TableCell>
-              <TableCell></TableCell>
-            </TableRow>
-          </TableBody>
-        </Table>
+              <TableRow>
+                <TableCell className="text-sm md:text-base lg:text-lg">
+                  <li>Tailwind CSS</li>
+                </TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg"></TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg"></TableCell>
+                <TableCell className="text-sm md:text-base lg:text-lg"></TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </div>
       </section>
     </>
   );

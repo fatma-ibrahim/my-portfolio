@@ -8,16 +8,20 @@ import {
 function Services() {
   return (
     <>
-      <section id="services" className="p-8">
-        <h2 className="text-3xl font-bold mb-4">Offered Services</h2>
+      <section id="services" className="p-4 md:p-8 lg:p-12">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">
+          Offered Services
+        </h2>
 
-        <div className="flex flex-col md:flex-row">
-          <Card className="md:w-1/2 p-8 m-3 md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <Card className="w-full p-6 md:p-8">
             <CardHeader>
-              <CardTitle>Crafting Visually Stunning Designs</CardTitle>
+              <CardTitle className="text-xl md:text-2xl lg:text-3xl">
+                Crafting Visually Stunning Designs
+              </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>
+              <p className="text-sm md:text-base lg:text-lg">
                 As an experienced web designer, I am committed to creating
                 visually stunning designs that captivate your audience and leave
                 a lasting impression.
@@ -25,12 +29,14 @@ function Services() {
             </CardContent>
           </Card>
 
-          <Card className="md:w-1/2 p-8 m-3 md:text-left">
+          <Card className="w-full p-6 md:p-8">
             <CardHeader>
-              <CardTitle>Building Intuitive User Experiences</CardTitle>
+              <CardTitle className="text-xl md:text-2xl lg:text-3xl">
+                Building Intuitive User Experiences
+              </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>
+              <p className="text-sm md:text-base lg:text-lg">
                 I specialize in developing user-friendly interfaces that
                 prioritize usability and accessibility, ensuring a seamless
                 experience for your website visitors.
@@ -38,12 +44,14 @@ function Services() {
             </CardContent>
           </Card>
 
-          <Card className="md:w-1/2 p-8 m-3 md:text-left">
+          <Card className="w-full p-6 md:p-8">
             <CardHeader>
-              <CardTitle>Delivering Exceptional Results</CardTitle>
+              <CardTitle className="text-xl md:text-2xl lg:text-3xl">
+                Delivering Exceptional Results
+              </CardTitle>
             </CardHeader>
             <CardContent>
-              <p>
+              <p className="text-sm md:text-base lg:text-lg">
                 I am dedicated to meeting your unique business needs and going
                 above and beyond to deliver exceptional results that exceed your
                 expectations.

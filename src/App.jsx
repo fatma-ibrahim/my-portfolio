@@ -11,9 +11,9 @@ import Contact from "./components/pages/Contact";
 function App() {
   return (
     <>
-      <div className="px-6 mx-6">
+      <div className="lg:px-6 lg:mx-6">
         <NavLinks />
-        <main className="container mx-auto p-4 pt-20">
+        <main className="container mx-auto p-4 md:p-6 lg:p-8 pt-20 md:pt-24 lg:pt-28 max-w-7xl">
           <Cover />
           <About />
           <Education />
