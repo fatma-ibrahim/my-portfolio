@@ -3,13 +3,13 @@ import { Button } from "../ui/button";
 function Contact() {
   return (
     <>
-      <section id="contact" className="md:p-8">
-        <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
-        <p className="text-lg text-gray-700 mb-6">
+      <section id="contact" className="py-4 md:py-4">
+        <h2 className="text-3xl font-bold mb-2">Contact Me</h2>
+        <p className="text-lg text-gray-700 mb-4">
           Ready to take the next step? Contact Me today and let&apos;s discuss how we can help grow your business.
         </p>
 
-        <div className="flex gap-4 mb-6">
+        <div className="flex gap-4 mb-4">
           <Button
             asChild
             className="bg-blue-600 hover:bg-blue-700 text-white"

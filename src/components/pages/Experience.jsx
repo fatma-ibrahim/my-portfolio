@@ -1,8 +1,8 @@
 function Experience() {
   return (
     <>
-      <section id="experience" className="md:p-8">
-        <h2 className="text-3xl font-bold mb-4">Work Experience</h2>
+      <section id="experience" className="py-4 md:py-4">
+        <h2 className="text-3xl font-bold mb-2">Work Experience</h2>
 
         <div className="mb-4">
           <h3>React Web Developer</h3>

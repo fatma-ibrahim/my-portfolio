@@ -8,13 +8,13 @@ import {
 function Services() {
   return (
     <>
-      <section id="services" className="md:p-8">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
+      <section id="services" className="py-4 md:py-4">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
           Offered Services
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Card className="w-full p-6 md:p-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Card className="w-full p-4">
             <CardHeader>
               <CardTitle className="text-xl md:text-2xl lg:text-3xl">
                 Crafting Visually Stunning Designs
@@ -29,7 +29,7 @@ function Services() {
             </CardContent>
           </Card>
 
-          <Card className="w-full p-6 md:p-8">
+          <Card className="w-full p-4">
             <CardHeader>
               <CardTitle className="text-xl md:text-2xl lg:text-3xl">
                 Building Intuitive User Experiences
@@ -44,7 +44,7 @@ function Services() {
             </CardContent>
           </Card>
 
-          <Card className="w-full p-6 md:p-8">
+          <Card className="w-full p-4">
             <CardHeader>
               <CardTitle className="text-xl md:text-2xl lg:text-3xl">
                 Delivering Exceptional Results

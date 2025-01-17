@@ -10,8 +10,8 @@ import {
 function Skills() {
   return (
     <>
-      <section id="skills" className="md:p-8">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
+      <section id="skills" className="py-4 md:py-4">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
           Technical Skills
         </h2>
 

@@ -1,8 +1,8 @@
 function About() {
   return (
     <>
-      <section id="about" className="md:p-8">
-        <h2 className="text-3xl font-bold mb-4">About Me</h2>
+      <section id="about" className="py-4 md:py-4">
+        <h2 className="text-3xl font-bold mb-2">About Me</h2>
         <p className="text-lg text-gray-700">
           I am a Computer Science graduate with a strong foundation in web
           development, particularly in front-end development using React.js. I

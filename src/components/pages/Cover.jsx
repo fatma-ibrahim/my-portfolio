@@ -1,5 +1,5 @@
 import myImage from "../../assets/imgs/me.jpg";
-import { FaLinkedin, FaGithub } from "react-icons/fa"; 
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Cover() {
   const linkedInUrl = "https://www.linkedin.com/in/fatmaibrahim6/";
@@ -9,11 +9,11 @@ function Cover() {
     <>
       <section
         id="cover"
-        className="flex flex-col md:flex-row items-center bg-gray-100 md:p-8"
+        className="flex flex-col md:flex-row items-center bg-gray-100 py-4 md:py-4"
       >
-        <div className="w-full md:w-1/2 p-8 md:text-left">
-          <h1 className="text-4xl font-bold mb-4">Fatma Ibrahim</h1>
-          <h2 className="text-2xl font-semibold text-blue-600 mb-4">
+        <div className="w-full md:w-1/2 p-4 md:text-left">
+          <h1 className="text-4xl font-bold mb-2">Fatma Ibrahim</h1>
+          <h2 className="text-2xl font-semibold text-blue-600 mb-2">
             React Web Development
           </h2>
           <p className="text-gray-700 text-lg">
@@ -44,7 +44,7 @@ function Cover() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 p-8 flex justify-center">
+        <div className="w-full md:w-1/2 p-4 flex justify-center">
           <img
             src={myImage}
             alt="Fatma Ibrahim"
