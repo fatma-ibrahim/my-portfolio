@@ -1,9 +1,9 @@
 import myImage from "../../assets/imgs/me.jpg";
-import { FaLinkedin, FaGithub } from "react-icons/fa"; // Import LinkedIn and GitHub icons
+import { FaLinkedin, FaGithub } from "react-icons/fa"; 
 
 function Cover() {
   const linkedInUrl = "https://www.linkedin.com/in/fatmaibrahim6/";
-  const githubUrl = "https://github.com/fatmaibrahim6"; // Add your GitHub URL here
+  const githubUrl = "https://github.com/fatma-ibrahim";
 
   return (
     <>
@@ -23,7 +23,6 @@ function Cover() {
             learn new skills that enhance my abilities.
           </p>
 
-          {/* Follow Me Section with Icons */}
           <div className="mt-4 flex items-center gap-4">
             <span className="text-lg font-semibold">Follow me:</span>
             <a
@@ -32,7 +31,7 @@ function Cover() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-800"
             >
-              <FaLinkedin className="w-8 h-8" /> {/* LinkedIn Icon */}
+              <FaLinkedin className="w-8 h-8" />
             </a>
             <a
               href={githubUrl}
@@ -40,7 +39,7 @@ function Cover() {
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-gray-600"
             >
-              <FaGithub className="w-8 h-8" /> {/* GitHub Icon */}
+              <FaGithub className="w-8 h-8" />
             </a>
           </div>
         </div>
