@@ -2,7 +2,7 @@ import myImage from "../../assets/imgs/me.jpg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Cover() {
-  const linkedInUrl = "https://www.linkedin.com/in/fatmaibrahim6/";
+  const linkedInUrl = "https://www.linkedin.com/in/fatmaibrahim5/";
   const githubUrl = "https://github.com/fatma-ibrahim";
 
   return (
