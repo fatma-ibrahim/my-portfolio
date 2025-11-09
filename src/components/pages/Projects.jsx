@@ -2,6 +2,8 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import fintessTracker from "../../assets/imgs/Fitness Tracker.png";
 import courseList from "../../assets/imgs/Course List.png";
 import newsApp from "../../assets/imgs/News App.png";
+import contactMap from "../../assets/imgs/Contact Form with Map Integration.png"
+import moodMate from "../../assets/imgs/Interactive Mood Tracker – “MoodMate“.png"
 
 function Projects() {
   return (
@@ -48,6 +50,32 @@ function Projects() {
             </CardHeader>
             <CardContent>
               <p className="font-semibold text-lg md:text-xl">News App</p>
+            </CardContent>
+          </Card>
+
+          <Card className="w-full p-4 text-center">
+            <CardHeader>
+              <img
+                src={contactMap}
+                alt="Contact Form with Map Integration"
+                className="w-full h-auto object-cover rounded-lg shadow-lg"
+              />
+            </CardHeader>
+            <CardContent>
+              <p className="font-semibold text-lg md:text-xl">Contact Form with Map Integration</p>
+            </CardContent>
+          </Card>
+
+          <Card className="w-full p-4 text-center">
+            <CardHeader>
+              <img
+                src={moodMate}
+                alt="Interactive Mood Tracker – 'MoodMate'"
+                className="w-full h-auto object-cover rounded-lg shadow-lg"
+              />
+            </CardHeader>
+            <CardContent>
+              <p className="font-semibold text-lg md:text-xl">Interactive Mood Tracker – &quot;MoodMate&quot;</p>
             </CardContent>
           </Card>
         </div>
@@ -153,6 +181,78 @@ function Projects() {
             <img
               src={newsApp}
               alt="News App"
+              className="rounded-lg shadow-lg w-full max-w-md max-h-96 object-cover"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-4 py-4">
+          <div className="md:w-1/2">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+              Contact Form with Map Integration
+            </h1>
+            <p className="mt-2 text-sm md:text-base lg:text-lg">
+              <strong>Description:</strong> The LocaConnect project is a modern, responsive web page that combines a functional contact form with a live Google Map. It enables users to easily send messages while viewing the business’s location directly on the same page. The design emphasizes accessibility, input validation, and a clean, professional layout for an enhanced user experience.
+            </p>
+            <p className="mt-2 text-sm md:text-base lg:text-lg">
+              <strong>Technologies Used:</strong>
+            </p>
+            <ul className="mt-2 list-disc list-inside text-sm md:text-base lg:text-lg">
+              <li><strong>HTML5: </strong>Structured the layout for the contact form and map section.</li>
+              <li><strong>CSS3: </strong>Styled the components with a clean, minimal interface and added responsive behavior using media queries.</li>
+              <li><strong>JavaScript (ES6): </strong>Implemented real-time form validation and user feedback through interactive alerts.</li>
+              <li><strong>Google Maps Embed API: </strong>Integrated an interactive map to display the physical location.</li>
+            </ul>
+            <ul className="mt-2 list-disc list-inside text-sm md:text-base lg:text-lg">
+              <strong>Features:</strong>
+              <li>Responsive layout that adapts to all screen sizes</li>
+              <li>Real-time validation for name, email, and message fields</li>
+              <li>Dynamic error and success alerts for user feedback</li>
+              <li>Embedded interactive Google Map for location context</li>
+              <li>Simple, modern UI with smooth usability</li>
+            </ul>
+          </div>
+
+          <div className="md:w-1/2 flex justify-center items-center">
+            <img
+              src={contactMap}
+              alt="Contact Form with Map Integration"
+              className="rounded-lg shadow-lg w-full max-w-md max-h-96 object-cover"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-4 py-4">
+          <div className="md:w-1/2">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+              Interactive Mood Tracker – &quot;MoodMate&quot;
+            </h1>
+            <p className="mt-2 text-sm md:text-base lg:text-lg">
+              <strong>Description:</strong> The MoodMate project is a responsive and interactive web app that allows users to express their current mood by selecting from a set of animated emojis. Once a mood is selected, the interface dynamically updates with a motivational message and emoji to reflect the user’s emotional state. The app focuses on simplicity, positivity, and user engagement through smooth interactions and a calming design.
+            </p>
+            <p className="mt-2 text-sm md:text-base lg:text-lg">
+              <strong>Technologies Used:</strong>
+            </p>
+            <ul className="mt-2 list-disc list-inside text-sm md:text-base lg:text-lg">
+              <li><strong>HTML5: </strong>Structured the layout and content of the mood tracker.</li>
+              <li><strong>CSS3: </strong>Designed a clean, pastel-themed interface with responsive layout and hover animations.</li>
+              <li><strong>JavaScript (ES6): </strong>Handled emoji selection, dynamic updates, and mood-based message display.</li>
+              <li><strong>Font Awesome: </strong>Provided expressive, high-quality emoji icons for each mood option.</li>
+            </ul>
+            <ul className="mt-2 list-disc list-inside text-sm md:text-base lg:text-lg">
+              <strong>Features:</strong>
+              <li>Interactive emoji-based mood selection</li>
+              <li>Dynamic motivational message display based on user mood</li>
+              <li>Smooth hover animations for enhanced user engagement</li>
+              <li>Fully responsive design that adapts to mobile and desktop screens</li>
+              <li>Minimal, modern interface promoting a positive user experience</li>
+            </ul>
+          </div>
+
+          <div className="md:w-1/2 flex justify-center items-center">
+            <img
+              src={moodMate}
+              alt="Interactive Mood Tracker – 'MoodMate'"
               className="rounded-lg shadow-lg w-full max-w-md max-h-96 object-cover"
             />
           </div>
