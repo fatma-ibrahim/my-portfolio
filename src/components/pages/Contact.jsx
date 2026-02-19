@@ -27,7 +27,7 @@ function Contact() {
         <p className="text-lg text-gray-700">
           Inquire about our services by sending an email to{" "}
           <a href="mailto:fatma.ibrahim3011@gmail.co" className="text-blue-600 hover:underline">
-            fatma.ibrahim3011@gmail.co
+            fatma.ibrahim3011@gmail.com
           </a>{" "}
           or by giving Me a call at{" "}
           <a href="tel:+201090290562" className="text-green-600 hover:underline">
