@@ -14,7 +14,7 @@ function Contact() {
             asChild
             className="bg-blue-600 hover:bg-blue-700 text-white"
           >
-            <a href="mailto:fatmatag60@gmail.com">Email Me</a>
+            <a href="mailto:fatma.ibrahim3011@gmail.com">Email Me</a>
           </Button>
           <Button
             asChild
@@ -26,8 +26,8 @@ function Contact() {
 
         <p className="text-lg text-gray-700">
           Inquire about our services by sending an email to{" "}
-          <a href="mailto:fatmatag60@gmail.com" className="text-blue-600 hover:underline">
-            fatmatag60@gmail.com
+          <a href="mailto:fatma.ibrahim3011@gmail.co" className="text-blue-600 hover:underline">
+            fatma.ibrahim3011@gmail.co
           </a>{" "}
           or by giving Me a call at{" "}
           <a href="tel:+201090290562" className="text-green-600 hover:underline">
